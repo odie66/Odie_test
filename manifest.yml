@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Odie_test
+  host: Odietest
+  disk_quota: 1024M
+  services:
+  - Odie_test-personality_insights
